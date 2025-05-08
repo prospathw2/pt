@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Training</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Αρχική</a></li>
+                <li><a href="#services">Υπηρεσίες</a></li>
+                <li><a href="#about">Σχετικά</a></li>
+                <li><a href="#contact">Επικοινωνία</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Καλώς ήρθατε στον κόσμο του personal training!</h1>
+        <p>Εδώ θα βρείτε τα πάντα για να βελτιώσετε τη φυσική σας κατάσταση.</p>
+    </section>
+
+    <section id="services">
+        <h2>Υπηρεσίες</h2>
+        <div class="service">
+            <h3>Ατομικές Προπονήσεις</h3>
+            <p>Προσαρμοσμένο πρόγραμμα προπόνησης για εσάς.</p>
+        </div>
+        <div class="service">
+            <h3>Ομαδικές Προπονήσεις</h3>
+            <p>Ασκήσεις σε ομάδες για ενδυνάμωση και συνεργασία.</p>
+        </div>
+        <div class="service">
+            <h3>Διατροφή & Ευεξία</h3>
+            <p>Συμβουλές για σωστή διατροφή και ευεξία.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Σχετικά με εμένα</h2>
+        <p>Είμαι πιστοποιημένος προσωπικός προπονητής με εμπειρία σε διάφορες μεθόδους προπόνησης και ευεξίας.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Επικοινωνία</h2>
+        <form action="#" method="post">
+            <label for="name">Όνομα:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Μήνυμα:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Αποστολή</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Personal Training - Όλα τα δικαιώματα διατηρούνται</p>
+    </footer>
+
+</body>
+</html>

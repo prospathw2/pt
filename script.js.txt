@@ -1,0 +1,13 @@
+document.querySelector("form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Αποτρέπει την αποστολή της φόρμας για να κάνουμε έλεγχο
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    if (name && email && message) {
+        alert("Η φόρμα αποστάλθηκε επιτυχώς!");
+    } else {
+        alert("Παρακαλώ συμπληρώστε όλα τα πεδία.");
+    }
+});
